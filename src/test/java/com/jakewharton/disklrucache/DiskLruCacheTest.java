@@ -889,6 +889,22 @@ public final class DiskLruCacheTest {
     assertValue("k1", "C", "D");
   }
 
+  @Test public void editorCommittedAfterCleanDoesNothing() throws Exception {
+    DiskLruCache.Editor kOne = cache.edit("k");
+    kOne.set(0, "A");
+    kOne.set(1, "B");
+
+    cache.evictAll();
+
+    DiskLruCache.Editor kTwo = cache.edit("k");
+    kTwo.set(0, "C");
+    kTwo.set(1, "D");
+
+    kOne.commit();
+    kTwo.commit();
+    assertValue("k", "C", "D");
+  }
+
   private void assertJournalEquals(String... expectedBodyLines) throws Exception {
     List<String> expectedLines = new ArrayList<String>();
     expectedLines.add(MAGIC);
