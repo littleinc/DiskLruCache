@@ -6,7 +6,6 @@
 
 #IntelliJ IDEA
 .idea
-*.iml
 *.ipr
 *.iws
 
@@ -17,3 +16,6 @@ pom.xml.*
 
 #OSX
 .DS_Store
+
+#Android Studio
+/build
