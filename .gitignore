@@ -19,3 +19,4 @@ pom.xml.*
 
 #Android Studio
 /build
+*.iml
