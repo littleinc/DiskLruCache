@@ -21,13 +21,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="Gradle: hamcrest-core-1.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: junit-4.10" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: commons-io-2.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: fest-util-1.2.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.apache.commons.io-2.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: fest-assert-core-2.0M10" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: fest-android-1.0.7" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="junit-4.10" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="fest-android-1.0.7" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="org.apache.commons.io-2.4" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="fest-util-1.2.5" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="fest-assert-core-2.0M10" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="commons-io-2.4" level="project" />
   </component>
 </module>
 
