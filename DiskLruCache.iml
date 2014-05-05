@@ -22,7 +22,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.10" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="fest-android-1.0.7" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="fest-android-1.0.8" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="org.apache.commons.io-2.4" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="hamcrest-core-1.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="fest-util-1.2.5" level="project" />
